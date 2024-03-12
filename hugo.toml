@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+theme = 'plague'
+
+[module]
+  [[module.imports]]
+    disable = false
+    ignoreConfig = false
+    ignoreImports = true
+ 
+
+[params]
+  siteHeaderText = "No Title"
+
+  colors = "gibson"
+
+[params.hcard]
+  fullName = "Yunei"
+
+
+[frontmatter]
+  date = [':filename', ':default'] 
